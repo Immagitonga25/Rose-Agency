@@ -1,3 +1,4 @@
+/* navbar section */
 #nav-bar {
     position: sticky;
     top: 0;
@@ -13,7 +14,7 @@
 }
 .logoname {
     font-weight: bold;
-    color: black;
+    color: rgb(121, 16, 60);
     font-size: 30px;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
@@ -34,7 +35,9 @@
     font-weight: 600;
     margin-top: 45px;
     font-size: 30px;
+    color: rgb(121, 16, 60);
 }
+/* banner section */
 #banner {
     background-image: linear-gradient(to right, gray,lightgray);
     color: black;
@@ -53,17 +56,61 @@
 .banner img {
     padding: 10px;
 }
+/* services section */
 .serviceimg {
     width: 50%;
     height: 50%;
 }
 #services {
     padding: 30px 0;
+    
 }
 .services {
-    padding: 20px;
+    padding: 10px;
 }
 h4 {
     font-weight: bold;
     font-style: oblique;
+    padding: 10px;
+}
+.h2 {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-size: 27px;
+    font-style: oblique;
+    text-decoration: underline purple;
+}
+#services .btn-primary {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: none;
+    border: none;
+    border-radius: 17px;
+    padding: 8px 25px;
+    background-color: rgb(121, 16, 60);
+}
+/* aboutUs section */
+#aboutUs {
+    padding-top: 30px;
+    background-color: lightgray;
+    padding-bottom: 10px;
+}
+.about-us ul li {
+    margin-top: 10px;
+}
+.aboutusimg {
+    width: 60%;
+    height: 100%;
+}
+.about-us ul {
+    margin-left: 100px;
+}
+.aboutUs {
+    margin: 30px 0;
+}
+/* testimonials section */
+#testimonials {
+    margin: 30px 0;
 }

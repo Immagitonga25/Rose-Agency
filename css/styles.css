@@ -11,6 +11,13 @@
     height: 40px;
     padding-left: 10px;
 }
+.logoname {
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
 .navbar-nav li {
     padding: 0 10px;
 }
@@ -22,4 +29,41 @@
 .fa-bars {
     color: black;
     font-size: 30px !important;
+}
+.title {
+    font-weight: 600;
+    margin-top: 45px;
+    font-size: 30px;
+}
+#banner {
+    background-image: linear-gradient(to right, gray,lightgray);
+    color: black;
+    padding-bottom: 20px;
+}
+.fa-play-circle {
+    font-size: 40px !important;
+    padding-right: 10px;
+    color: black;
+    text-decoration: none;
+}
+.bannerimg {
+    width: 70%;
+    height: 100%;
+}
+.banner img {
+    padding: 10px;
+}
+.serviceimg {
+    width: 50%;
+    height: 50%;
+}
+#services {
+    padding: 30px 0;
+}
+.services {
+    padding: 20px;
+}
+h4 {
+    font-weight: bold;
+    font-style: oblique;
 }

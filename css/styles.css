@@ -42,6 +42,7 @@
     background-image: linear-gradient(to right, gray,lightgray);
     color: black;
     padding-bottom: 20px;
+    
 }
 .fa-play-circle {
     font-size: 40px !important;
@@ -62,8 +63,9 @@
     height: 50%;
 }
 #services {
-    padding: 30px 0;
-    
+    /* padding: 30px 0; */
+    padding-top: 90px;
+    padding-bottom: 30px;
 }
 .services {
     padding: 10px;
@@ -93,9 +95,10 @@ h4 {
 }
 /* aboutUs section */
 #aboutUs {
-    padding-top: 30px;
+    padding-top: 90px;
     background-color: lightgray;
     padding-bottom: 10px;
+    
 }
 .about-us ul li {
     margin-top: 10px;
@@ -105,7 +108,7 @@ h4 {
     height: 100%;
 }
 .about-us ul {
-    margin-left: 100px;
+    margin-left: 60px;
 }
 .aboutUs {
     margin: 30px 0;
@@ -113,4 +116,84 @@ h4 {
 /* testimonials section */
 #testimonials {
     margin: 30px 0;
+    padding-top: 90px;
+}
+.user {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.testimonials {
+    border-left: 4px solid  rgb(121, 16, 60);
+    margin: 50px 0;
+}
+.details {
+    display: inline-block;
+    font-size: 15px;
+}
+/* social media section */
+#socialmedia {
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+#socialmedia p {
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-style: oblique;
+}
+.socialicons img {
+    transition: 0.5s;
+    padding: 0 10px;
+}
+.socialicons a:hover img {
+    transform: translateY(-10px);
+}
+/* contacts section */
+#contacts {
+    background-image: linear-gradient(to right, gray,lightgray);
+    color: black;
+}
+.cont {
+    font-size: 20px;
+}
+.contimg {
+    padding: 20px;
+}
+.contimg img {
+    height: 60px;
+    width: 120px;
+    margin-bottom: 20px;
+}
+.contimg .fas {
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    border-radius: 2px;
+    text-align: center;
+    background-image: linear-gradient(to right, gray,lightgray);
+    padding-top: 7px;
+    color: rgb(121, 16, 60);
+}
+.contimg .form-control { 
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    max-width: 300px;
+}
+.contimg .btn-primary {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 15px;
+    background-color: rgb(121, 16, 60);
+}
+hr {
+    background-color: white;
+}
+.copyright {
+    text-align: center;
+    padding-bottom: 15px;
 }
